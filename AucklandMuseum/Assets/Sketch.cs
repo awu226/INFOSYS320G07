@@ -3,6 +3,9 @@ using Pathfinding.Serialization.JsonFx; //make sure you include this using
 
 public class Sketch : MonoBehaviour {
     public GameObject myPrefab;
+	public Material material1; 
+	public Material material2; 
+
     // Put your URL here
 	public string _WebsiteURL = "http://ccha504.azurewebsites.net/tables/product?zumo-api-version=2.0.0";
 
@@ -32,12 +35,26 @@ public class Sketch : MonoBehaviour {
             float perc = i / (float)totalCubes;
             i++;
             float x = perc * totalDistance;
-            float y = 5.0f;
-            float z = 0.0f;
-            GameObject newCube = (GameObject)Instantiate(myPrefab, new Vector3(x, y, z), Quaternion.identity);
-            newCube.GetComponent<myCubeScript>().setSize((1.0f - perc) * 2);
-            newCube.GetComponent<myCubeScript>().ratateSpeed = perc;
-            newCube.GetComponentInChildren<TextMesh>().text = product.ProductName;
+
+			if (product.Manufacturer == "Abbas") {
+            	float y = 5.0f;
+            	float z = 0.0f;
+            	GameObject newCube = (GameObject)Instantiate(myPrefab, new Vector3(x, y, z), Quaternion.identity);
+            	newCube.GetComponent<myCubeScript>().setSize(1.0f);
+            	newCube.GetComponent<myCubeScript>().ratateSpeed = perc;
+				newCube.GetComponentInChildren<TextMesh> ().text = product.Manufacturer;
+				newCube.GetComponent<Renderer> ().material = material1;
+
+
+			} else {
+				float y = 3.0f;
+				float z = 0.0f;
+				GameObject newCube = (GameObject)Instantiate(myPrefab, new Vector3(x, y, z), Quaternion.identity);
+				newCube.GetComponent<myCubeScript>().setSize(0.5f);
+				newCube.GetComponent<myCubeScript>().ratateSpeed = perc;
+				newCube.GetComponentInChildren<TextMesh> ().text = product.Manufacturer;
+				newCube.GetComponent<Renderer> ().material = material2 ;
+			}
         }
 	}
 	
