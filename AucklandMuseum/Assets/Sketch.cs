@@ -8,7 +8,11 @@ public class Sketch : MonoBehaviour {
 	public Material material3; 
 
     // Put your URL here
+<<<<<<< HEAD
 	public string _WebsiteURL = "http://ccha504.azurewebsites.net/tables/Export?zumo-api-version=2.0.0";
+=======
+	public string _WebsiteURL = "http://awu226.azurewebsites.net/tables/product?zumo-api-version=2.0.0";
+>>>>>>> 6cc1051172fa12fcd087ffd4c24b7e89cb38d701
 
     void Start () {
         //Reguest.GET can be called passing in your ODATA url as a string in the form:
