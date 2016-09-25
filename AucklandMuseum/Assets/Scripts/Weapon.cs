@@ -13,7 +13,7 @@ class Weapon
 	public string LastModified { get; set; }
 	public string NameTitle { get; set; }
 	public string ChangedOwnershipThrough { get; set; }
-	public string Dimension { get; set; }
+	public string Dimesion { get; set; }
 	public string Description { get; set; }
 	public string Keeper { get; set; }
 	public string Category { get; set; }
