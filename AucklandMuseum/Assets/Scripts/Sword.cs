@@ -17,7 +17,7 @@
 			if(Input.GetKey(KeyCode.C))
 				{
 				Debug.Log ("c");
-					Application.LoadLevel("Title");
+					Application.LoadLevel("Sword1");
 
 				}
 			}
