@@ -4,11 +4,18 @@ using Pathfinding.Serialization.JsonFx; //make sure you include this using
 
 public class Sketch : MonoBehaviour {
     public GameObject myPrefab;
-	public Text swordUsedBy; 
+	public Text swordTitle; 
+	public Text swordOwner;
+	public Text swordDateUsed;
+	public Text swordName;
+	public Text swordDescription;
+	public Text swordCategory;
+	public Text swordDimension;
+
 
 
     // Put your URL here
-	public string _WebsiteURL = "http://ccha504.azurewebsites.net/tables/Export?zumo-api-version=2.0.0";
+	public string _WebsiteURL = "http://kwon709.azurewebsites.net/tables/Weapon?zumo-api-version=2.0.0";
 
     void Start () {
         //Reguest.GET can be called passing in your ODATA url as a string in the form:
@@ -23,18 +30,32 @@ public class Sketch : MonoBehaviour {
         }
 
         //We can now deserialize into an array of objects - in this case the class we created. The deserializer is smart enough to instantiate all the classes and populate the variables based on column name.
-        Export[] exports = JsonReader.Deserialize<Export[]>(jsonResponse);
+		Weapon[] weapons = JsonReader.Deserialize<Weapon[]>(jsonResponse);
 
-		int totalCubes = exports.Length;
+		int totalCubes = weapons.Length;
         int totalDistance = 5;
         int i = 0;
 
 		GameObject newSword = (GameObject)Instantiate(myPrefab, new Vector3(0, 5, 0), Quaternion.identity);
 		newSword.transform.localScale = new Vector3(5, 5, 5);
 		newSword.transform.localRotation = Quaternion.Euler (90, 60, 0); 
-		Debug.Log (swordUsedBy.text); 
-		Debug.Log (exports[1].ExportType); 
-		swordUsedBy.text = swordUsedBy.text + exports [1].ExportType;
+		Debug.Log (swordTitle.text); 
+		Debug.Log (swordOwner.text); 
+		Debug.Log (swordDateUsed.text); 
+		Debug.Log (swordName.text); 
+		Debug.Log (swordDescription.text); 
+		Debug.Log (swordCategory.text); 
+		Debug.Log (swordDimension.text); 
+
+	
+		swordTitle.text = swordTitle.text;
+		swordOwner.text = swordOwner.text + weapons [0].Keeper;
+		swordDateUsed.text = swordDateUsed.text + weapons [0].LastModified;
+		swordName.text = swordName.text + weapons [0].NameTitle;
+		swordDescription.text = swordDescription.text + weapons [0].Description;
+		swordCategory.text = swordCategory.text + weapons [0].Category;
+		swordDimension.text = swordDimension.text + weapons [0].Dimension;
+
 
 
         //We can now loop through the array of objects and access each object individually
