@@ -55,6 +55,7 @@ public class Sketch : MonoBehaviour {
 		swordDimension.text = swordDimension.text + weapons [0].Dimesion;
 		personId.text = personId.text + persons [0].PersonID;
 		personFirstName.text = personFirstName.text + persons [0].FirstName + " " + persons [0].LastName;;
+
 		personGender.text = personGender.text + persons [0].Gender;
 	
 	}
