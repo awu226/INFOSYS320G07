@@ -18,13 +18,13 @@
 		}
 		void OnTriggerStay(Collider coll)
 		{
+		Debug.Log (coll.gameObject.name);
 			if(coll.gameObject.name.Equals("Player"))
 			{
-				if(Input.GetKey(KeyCode.Z))
-				{
+				
 					OpenLift();
 
-				}
+				
 			}
 		}
 		void OpenLift()
