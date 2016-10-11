@@ -15,7 +15,7 @@
 
 		if (coll.gameObject.name.Equals ("Player")) {
 			Debug.Log (transform.name);
-			if (transform.name.Equals ("Cube")) {
+			if (transform.name.Equals ("CDag")) {
 				SceneManager.LoadScene ("Dagger");
 			} else if (transform.name.Equals ("CSword")) {
 				SceneManager.LoadScene ("Sword1");
@@ -25,13 +25,9 @@
 				SceneManager.LoadScene ("Katana");
 			} else if (transform.name.Equals ("CCutter")) {
 				SceneManager.LoadScene ("Cutter");
-			} else if (transform.name.Equals ("CEpic")) {
-				SceneManager.LoadScene ("SC2");
-			} else if (transform.name.Equals ("CDag")) {
-				SceneManager.LoadScene ("Dagger");
-			}else if (transform.name.Equals ("abcd")) {
+			} else if (transform.name.Equals ("CS2")) {
 				SceneManager.LoadScene ("SwordEpic");
-			}
+			} 
 		}
 		
 
