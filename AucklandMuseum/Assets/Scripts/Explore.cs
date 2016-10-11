@@ -40,5 +40,18 @@ public class Explore : MonoBehaviour {
 		SceneManager.LoadScene ("SwordEpic");
 	}
 
+	public void OnClickAnthony(){
+
+		SceneManager.LoadScene ("Anthony");
+	}
+	public void OnClickLisa(){
+
+		SceneManager.LoadScene ("Lisa");
+	}
+	public void OnClickKenny(){
+
+		SceneManager.LoadScene ("Kenny");
+	}
+
 
 }
