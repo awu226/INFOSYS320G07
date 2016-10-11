@@ -52,6 +52,10 @@ public class Explore : MonoBehaviour {
 
 		SceneManager.LoadScene ("Kenny");
 	}
+	public void OnClickBack(){
+
+		SceneManager.LoadScene ("Main");
+	}
 
 
 }
