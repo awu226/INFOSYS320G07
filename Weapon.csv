@@ -1,7 +1,8 @@
 ObjectID,AccessionDate,AccessionNumber,DateCreated,LastModified,NameTitle,ChangedOwnershipThrough,Dimesion,Description,Keeper,Category
 23846,3/06/90,3/06/90,3/06/90,16/06/97,Dagger,2145,537mm,"Weapon, shark toothed",Pacific/Ethnology,ManMadeObject
-23852,12/07/90,12/07/90,12/07/90,15/07/92,Sword,2145,380mm,"Weapon, shark toothed",Pacific/Ethnology,ManMadeObject
+23852,12/07/90,12/07/90,12/07/90,15/07/92,Sword,2145,380mm,"Weapon, large",Pacific/Ethnology,ManMadeObject
 23995,23/02/94,23/02/94,23/02/94,23/02/94,Cutter,2145,623mm,"Weapon, Cutter, Medium",Pacific/Ethnology,ManMadeObject
-21985,13/07/69,14/07/69,15/07/69,16/07/69,Katana,2098,345mm,"Weapon, Cutter, Medium",Pacific/Ethnology,ManMadeObject
-13998,12/12/78,13/12/78,14/12/78,15/12/78,Rapier,4567,478mm,"Weapon, Cutter, Medium",Pacific/Ethnology,ManMadeObject
-29391,9/06/96,10/06/96,11/06/96,23/02/99,Sword,3214,590mm,"Weapon, Cutter, Medium",Pacific/Ethnology,ManMadeObject
+21985,13/07/69,14/07/69,15/07/69,16/07/69,Katana,2098,345mm,"Weapon, Katana ",Pacific/Ethnology,ManMadeObject
+13998,12/12/78,13/12/78,14/12/78,15/12/78,Rapier,4567,478mm,"Weapon, large",Pacific/Ethnology,ManMadeObject
+29391,9/06/96,10/06/96,11/06/96,23/02/99,Sword,2098,590mm,"Weapon, Sword, large",Pacific/Ethnology,ManMadeObject
+11111,1/01/01,2/01/01,3/01/01,4/01/01,ABCD,15/01/03,100mm,abcd,abc,abc

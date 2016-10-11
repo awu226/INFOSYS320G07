@@ -12,7 +12,7 @@ public class Rotation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("HI" + Input.GetAxis("Mouse X"));
+		
 		float h = horizontalSpeed * Input.GetAxis("Mouse X");
 		float v = verticalSpeed * Input.GetAxis("Mouse Y");
 		transform.Rotate(v, h, 0);
