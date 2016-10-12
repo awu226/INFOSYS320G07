@@ -38,8 +38,8 @@ public class Rapier: MonoBehaviour {
 
 
 
-		GameObject dagger = (GameObject)Instantiate (myPrefab, new Vector3 (-2, 3, 0), Quaternion.identity);
-		dagger.transform.localScale = new Vector3 (3,3, 3);
+		GameObject dagger = (GameObject)Instantiate (myPrefab, new Vector3 (-9, 4, 0), Quaternion.identity);
+		dagger.transform.localScale = new Vector3 (7,7, 7);
 		dagger.transform.localRotation = Quaternion.Euler (90, 60, 0); 
 		dagger.AddComponent<Rotation> ();
 	

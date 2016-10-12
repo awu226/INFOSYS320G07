@@ -38,8 +38,8 @@ public class SwordEpic: MonoBehaviour {
 
 
 
-		GameObject dagger = (GameObject)Instantiate (myPrefab, new Vector3 (-2, 4, 0), Quaternion.identity);
-		dagger.transform.localScale = new Vector3 (2, 2, 2);
+		GameObject dagger = (GameObject)Instantiate (myPrefab, new Vector3 (-9, 5, 0), Quaternion.identity);
+		dagger.transform.localScale = new Vector3 (7,7, 7);
 		dagger.transform.localRotation = Quaternion.Euler (90, 60, 0); 
 		dagger.AddComponent<Rotation> ();
 	
