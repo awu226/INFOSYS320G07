@@ -58,11 +58,11 @@ public class PersonDataLisa : MonoBehaviour {
 		personGender.text = personGender.text + persons [1].Gender;
 		personDOB.text = personDOB.text + persons [1].DOB;
 	
-		weapon1.text = "Katana: " + personweapons [3].ObjectID;
-		weapon2.text = "Sword: " + personweapons [5].ObjectID;
+		weapon1.text = "Katana (" + personweapons [3].ObjectID +")";
+		weapon2.text = "Sword (" + personweapons [5].ObjectID + ")";
 
-		weapon1info.text = "From: " + personweapons[3].AccessFrom + " To: " + personweapons[3].AccessTo;
-		weapon2info.text = "From: " + personweapons[5].AccessFrom + " To: " + personweapons[5].AccessTo;
+		weapon1info.text =  personweapons[3].AccessFrom + " - " + personweapons[3].AccessTo;
+		weapon2info.text =  personweapons[5].AccessFrom + " - " + personweapons[5].AccessTo;
 
 
 	}

@@ -54,10 +54,10 @@ public class PersonDataKenny : MonoBehaviour {
 		personGender.text = personGender.text + persons [2].Gender;
 		personDOB.text = personDOB.text + persons [2].DOB;
 	
-		weapon1.text = "Rapier: " + personweapons [4].ObjectID;
+		weapon1.text = "Rapier (" + personweapons [4].ObjectID + ")";
 
 
-		weapon1info.text = "From: " + personweapons[4].AccessFrom + " To: " + personweapons[4].AccessTo;
+		weapon1info.text = personweapons[4].AccessFrom + " - " + personweapons[4].AccessTo;
 
 
 

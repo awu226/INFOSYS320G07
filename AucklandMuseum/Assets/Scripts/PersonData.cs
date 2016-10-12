@@ -62,12 +62,12 @@ public class PersonData : MonoBehaviour {
 		personGender.text = personGender.text + persons [0].Gender;
 		personDOB.text = personDOB.text + persons [0].DOB;
 	
-		weapon1.text = "Dagger: " + personweapons [0].ObjectID;
-		weapon2.text = "Sword: " + personweapons [1].ObjectID;
-		weapon3.text = "Cutter: " + personweapons [2].ObjectID;
-		weapon1info.text = "From: " + personweapons[0].AccessFrom + " To: " + personweapons[0].AccessTo;
-		weapon2info.text = "From: " + personweapons[1].AccessFrom + " To: " + personweapons[1].AccessTo;
-		weapon3info.text = "From: " + personweapons[2].AccessFrom + " To: " + personweapons[2].AccessTo;
+		weapon1.text = "Dagger (" + personweapons [0].ObjectID + ")";
+		weapon2.text = "Sword (" + personweapons [1].ObjectID+ ")";
+		weapon3.text = "Cutter (" + personweapons [2].ObjectID+ ")";
+		weapon1info.text = personweapons[0].AccessFrom + " - " + personweapons[0].AccessTo;
+		weapon2info.text = personweapons[1].AccessFrom + " - " + personweapons[1].AccessTo;
+		weapon3info.text = personweapons[2].AccessFrom + " - " + personweapons[2].AccessTo;
 
 
 	}
