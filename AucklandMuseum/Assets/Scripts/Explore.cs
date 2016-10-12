@@ -56,6 +56,11 @@ public class Explore : MonoBehaviour {
 
 		SceneManager.LoadScene ("Main");
 	}
+	public void OnClickInstructions(){
+
+		SceneManager.LoadScene ("Instructions");
+	}
+
 
 
 }

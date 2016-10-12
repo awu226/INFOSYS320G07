@@ -42,13 +42,13 @@ public class PersonDataLisa : MonoBehaviour {
 
 	
 
-		GameObject katana = (GameObject)Instantiate (katanaprefab, new Vector3 (-4, 3, 0), Quaternion.identity);
-		GameObject swordepic = (GameObject)Instantiate (epicswordprefab, new Vector3 (0, 3, 0), Quaternion.identity);
+		GameObject katana = (GameObject)Instantiate (katanaprefab, new Vector3 (-11, 1, 0), Quaternion.identity);
+		GameObject swordepic = (GameObject)Instantiate (epicswordprefab, new Vector3 (-1, 1, 0), Quaternion.identity);
 
-		katana.transform.localScale = new Vector3 (1,1, 1);
+		katana.transform.localScale = new Vector3 (2,2, 3);
 		katana.transform.localRotation = Quaternion.Euler (130, 60, 0); 
 
-		swordepic.transform.localScale = new Vector3 (1,1, 1);
+		swordepic.transform.localScale = new Vector3 (2,2, 2);
 		swordepic.transform.localRotation = Quaternion.Euler (140, 60, 0); 
 
 	
