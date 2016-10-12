@@ -43,9 +43,9 @@ public class PersonData : MonoBehaviour {
 
 	
 
-		GameObject dagger = (GameObject)Instantiate (daggerprefab, new Vector3 (-11, 1, 0), Quaternion.identity);
-		GameObject sword = (GameObject)Instantiate (swordprefab, new Vector3 (-1, 1, 0), Quaternion.identity);
-		GameObject cutter = (GameObject)Instantiate (cutterprefab, new Vector3 (7, 1, 0), Quaternion.identity);
+		GameObject dagger = (GameObject)Instantiate (daggerprefab, new Vector3 (-9, 2, 0), Quaternion.identity);
+		GameObject sword = (GameObject)Instantiate (swordprefab, new Vector3 (-1, 2, 0), Quaternion.identity);
+		GameObject cutter = (GameObject)Instantiate (cutterprefab, new Vector3 (7, 2, 0), Quaternion.identity);
 		dagger.transform.localScale = new Vector3 (2,2, 3);
 		dagger.transform.localRotation = Quaternion.Euler (130, 60, 0); 
 

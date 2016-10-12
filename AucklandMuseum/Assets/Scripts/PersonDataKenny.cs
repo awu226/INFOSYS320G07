@@ -39,7 +39,7 @@ public class PersonDataKenny : MonoBehaviour {
 
 	
 
-		GameObject rapier = (GameObject)Instantiate (rapierprefab, new Vector3 (-11, 1, 0), Quaternion.identity);
+		GameObject rapier = (GameObject)Instantiate (rapierprefab, new Vector3 (-9, 2, 0), Quaternion.identity);
 
 
 		rapier.transform.localScale = new Vector3 (2,2, 2);
