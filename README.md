@@ -1,7 +1,11 @@
 # INFOSYS320G07
 INFOSYS 320 Group 7 project
 
+PC Standalone Exe Folder 
+Contains the exe for windows - use this to run the prototype :) 
 
+
+Auckland Museum - Unity Project
 1) Open Unity 
 2) Select "Auckland Museum" 
 3) Go to "Scenes" folder 
