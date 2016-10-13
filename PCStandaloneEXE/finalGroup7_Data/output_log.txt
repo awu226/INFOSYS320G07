@@ -1,0 +1,117 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Microsoft Basic Render Driver (ID=0x8c)
+    Vendor:   Microsoft
+    VRAM:     2047 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.346 seconds
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+desktop: 1024x768 64Hz; virtual: 1024x768 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.387900 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.840899 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 196.
+Total: 0.238500 ms (FindLiveObjects: 0.020100 ms CreateObjectMapping: 0.018500 ms MarkObjects: 0.180200 ms  DeleteObjects: 0.017400 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.809700 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 546.
+Total: 0.311800 ms (FindLiveObjects: 0.050100 ms CreateObjectMapping: 0.025400 ms MarkObjects: 0.213400 ms  DeleteObjects: 0.019600 ms)
+
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Boo.Lang.dll (this message is harmless)
+Collision occured
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Collision occured
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Floor1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Collision occured
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Collision occured
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Trigger
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+CSword
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 234.419800 ms
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 324.
+Total: 23.716200 ms (FindLiveObjects: 0.030100 ms CreateObjectMapping: 0.016000 ms MarkObjects: 23.270100 ms  DeleteObjects: 0.397400 ms)
+
+Platform assembly: C:\Users\Chahat\Desktop\Final320Build\finalGroup7_Data\Managed\Mono.Security.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: b38 -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.094900 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 342.
+Total: 0.472200 ms (FindLiveObjects: 0.046800 ms CreateObjectMapping: 0.017000 ms MarkObjects: 0.381500 ms  DeleteObjects: 0.024000 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.746700 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 0.660600 ms (FindLiveObjects: 0.052100 ms CreateObjectMapping: 0.023600 ms MarkObjects: 0.533900 ms  DeleteObjects: 0.048200 ms)
+
